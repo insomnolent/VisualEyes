@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "Photos"("URL" text NOT NULL, "info" text NOT NULL, "words"
+      text NOT NULL, PRIMARY KEY ("URL") )
+  type: run_sql
+- args:
+    name: Photos
+  type: add_existing_table_or_view
