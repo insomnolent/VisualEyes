@@ -1,4 +1,6 @@
-# hello-nginx
+# VisualEyes
+
+# Check us out at www.visualeyes.tech!
 
 This quickstart consists of a basic hasura project with a microservice which hosts a static html page using nginx. The static page will be hosted at https://www.cluster-name.hasura-app.io.
 

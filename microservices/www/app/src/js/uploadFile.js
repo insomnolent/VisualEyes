@@ -7,7 +7,7 @@ var file_input = document.getElementById('file_input');
 
 //     $.ajax({
 //       url: "https://filestore.blurriness60.hasura-app.io/v1/file",
-//       headers: {"Authorization":"Bearer f533a6e4ab6d6787f9375a540cae4b85084297f455e82f77" },
+//       headers: {"Authorization":"Bearer 834bff3de0928469f59c85bbe0037a5e23d7b1065c843d9c" },
 //       data: file,
 //       type: "POST",
 //     }).done(function(json) {
@@ -33,7 +33,7 @@ upload_btn.onclick = function () {
     var requestOptions = {
         method: 'POST',
         body: file,
-        headers: {"Authorization":"Bearer f533a6e4ab6d6787f9375a540cae4b85084297f455e82f77" },
+        headers: {"Authorization":"Bearer 834bff3de0928469f59c85bbe0037a5e23d7b1065c843d9c" },
         // By default, the session cookie is automatically used!
         credentials: 'include'
     };
@@ -49,7 +49,7 @@ upload_btn.onclick = function () {
            fileId = data.file_id;
            url = url + fileId;
           processImage(url);
-          processImageUploadText(url);
+          // processImageUploadText(url);
 
        })
        .catch(function(error) {
